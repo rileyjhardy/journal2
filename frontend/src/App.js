@@ -26,7 +26,7 @@ this.toggleDisplay = this.toggleDisplay.bind(this);
 }
 
 componentDidMount(){
-Axios.get('/entry').then(res => {
+Axios.get('https://rileysjournal.herokuapp.com/entry').then(res => {
   
   store.dispatch(LoadDb(res.data));
 })
