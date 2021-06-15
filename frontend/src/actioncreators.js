@@ -79,10 +79,6 @@ const ApplyPageColor = (color) => {
   }
 }
 
-
-
-
-
 export {NewNote,
         NEWNOTE,
         SAVENOTE,
